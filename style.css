@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*
+{
+    margin:0;
+    padding: 0;
+}
+body
+{
+
+}
+.container
+{
+    max-width:90vw;
+    font-family: 'Ubuntu',sans-serif;
+}
+.navbar{
+    display: flex;
+    height:67px;
+    
+
+}
+.navbar li{
+    list-style: none;
+    margin:0 12px;
+
+}
+.topleft{
+    width:50%;
+    padding:1px 0;
+
+}
+.topright{
+    width:50%;
+
+}
+.section1
+{
+   
+   max-height:100vh;
+   overflow-x:visible;
+   
+}
+.section1 h1{
+    font-size:34px;
+}
+.logo{
+    font-size:1.3rem;
+}
+.research{
+    height:150px;
+    margin-left:0px;
+    margin-top:40px;
+    width:150px;
+    
+}
+.img1
+{
+    width:600px;
+}
+.topright.img1{
+    width:666px;
+    margin-left: 550px;
+}
+.section2 h1{
+    font-size:2 rem;
+}
+.section2
+{
+padding-left: 23;
+padding-right:63;
+}
+.box
+{
+    margin:12px 22px;
+    min-width:27vw;
+    border:2px solid rgb(255 0 99);
+    text-align:center;
+    padding:8px 0;
+    border-radius:8px;
+}
+.box ul{
+    list-style-type:none;
+}
+.box ul li{
+    margin:12px 2px;
+}
+.highlight
+{
+    font-size:1.0rem;
+    font-weight:bolder;
+}
+footer
+{
+padding:23px;
+text-align :center;
+}
+.buttons
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:12px;
+
+}
+.deal
+{
+    font-size:1.2rem;
+    font-weight:bolder;
+    margin:12px 0;
+}
